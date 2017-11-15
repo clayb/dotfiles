@@ -13,7 +13,7 @@ alias showdots="defaults write com.apple.finder AppleShowAllFiles YES && pkill F
 alias hidedots="defaults write com.apple.finder AppleShowAllFiles NO && pkill Finder"
 alias cmowtransfer="/usr/local/bin/cmow_files_transfer.sh"
 alias sshconfig="subl ~/.ssh"
-alias {terminalinfo,awsinfo}="subl /Users/claybaucom/Sites/assets/terminal-info"
+alias {terminalinfo,awsinfo,notes}="subl /Users/claybaucom/Sites/assets/terminal-info-and-notes"
 alias weather="curl -4 wttr.in/New_York"
 
 # Refresh the profile after making changes in the file
