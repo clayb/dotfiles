@@ -27,3 +27,6 @@ alias visa='echo "4111111111111111" && echo "4111111111111111" | pbcopy'
 alias master='echo "5555555555554444" && echo "5555555555554444" | pbcopy'
 alias discover='echo "6011000990139424" && echo "6011000990139424" | pbcopy'
 alias amex='echo "371449635398431" && echo "371449635398431" | pbcopy'
+
+# Start mongodb in special directory (other than the default)
+alias {mongostart,startmongo}="mongod --dbpath ~/Sites/Databases/mongodb-data"

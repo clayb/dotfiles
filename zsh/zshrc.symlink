@@ -42,3 +42,5 @@ unset config_files
 
 export PATH="$(brew --prefix homebrew/php/php55)/bin:$PATH"
 PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
+
+eval $(thefuck --alias)
