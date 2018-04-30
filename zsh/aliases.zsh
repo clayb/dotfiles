@@ -4,6 +4,7 @@ alias l="ls -lAh"
 alias so="sanky-pf"
 alias reload!='. ~/.zshrc'
 alias mamp="sudo subl ~/.mamp"
+alias hbmamp="sudo subl ~/.hbmamp"
 alias speed="sudo find /private/var/log/asl/* -mtime +5 -exec rm -rf {} \;"
 alias selfupdate="speed && brew update && brew upgrade && brew cleanup && rvm get stable"
 alias ios="open /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Applications/iPhone\ Simulator.app"
