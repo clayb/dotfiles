@@ -31,3 +31,7 @@ alias amex='echo "371449635398431" && echo "371449635398431" | pbcopy'
 
 # Start mongodb in special directory (other than the default)
 alias {mongostart,startmongo}="mongod --dbpath ~/Sites/Databases/mongodb-data"
+
+# For manually installed (Not through fucking homebrew) version of mysql 5.7
+alias mysql='/usr/local/mysql/bin/mysql'
+alias mysqladmin='/usr/local/mysql/bin/mysqladmin'
